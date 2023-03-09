@@ -1,6 +1,6 @@
 body {
-   margin: 40px 20px 40px 20px; /* 外側の余白、上右下左 */
-   padding: 0;                   /* 内側の余白を消す(念のため) */
+    margin: 40px 20px 40px 20px;  /* 外側の余白、上右下左 */
+    padding: 0;                   /* 内側の余白を消す(念のため) */
 }
 h1{
     color: #ffffff; 
