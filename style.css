@@ -14,7 +14,7 @@ h1{
     flex-wrap: wrap;            /* 折り返し指定 */
 }
 .model {
-    max-width: 600px;
+    max-width: 300px;
     height: 400px;
     background-color: #eeeeee;    
 }
