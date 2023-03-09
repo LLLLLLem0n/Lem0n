@@ -21,6 +21,10 @@ model-viewer {
   text-align: center;
 }
 .inner{
+  color: #98ff98; 
+  font-size: 15px;
+  letter-spacing: 0.11em;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
   display: inline-block;
   text-align: left;
 }
