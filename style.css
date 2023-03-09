@@ -33,19 +33,14 @@ model-viewer {
 
 
 @media screen and (max-width: 767px) {/* phone */
-	body {
-　　　　　　　　box-sizing: border-box;
-　　　　　　　　width: 100%;
-　　　　　　　　padding: 10px;
-　　　　　　　　border: 2px solid rgba(0,0,0,.2);
-        }
+　　　　*, *:before, *:after {
+　　　　　　　  box-sizing: border-box
+　　　　}
 	.flex_test-box {
 		flex-direction: column;
+		gap: 10px
 	}
 	.flex_test-item {
 		width: 100%;
-	}
-	.flex_test-item:nth-of-type(n+2) {
-            　  margin-top:30px;/*子要素を折り返した垂直方向の上部の余白指定*/
 	}
 }
