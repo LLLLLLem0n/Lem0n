@@ -32,11 +32,14 @@ model-viewer {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {/* phone */
 	.flex_test-box {
 		flex-direction: column;
 	}
 	.flex_test-item {
 		width: 100%;
-	} /* phone */
+	}
+	.flex_test-item:nth-of-type(n+2) {
+            　  margin-top:30px;/*子要素を折り返した垂直方向の上部の余白指定*/
+	}
 }
