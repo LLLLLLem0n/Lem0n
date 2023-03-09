@@ -22,14 +22,13 @@ model-viewer {
 .outer{
   width: 100dvw;
   padding: 0 auto;
-  background-color: #ffb6c1;
   text-align: center;
 }
 .inner{
-  width: 65dvw;
-  height: 50dvh;
+  width: 75dvw;
+  height: 30dvh;
   margin: 0 auto;
-  background-color: #4682b4;
+  
   color: #98ff98;   
   font-size: 15px;
   letter-spacing: 0.11em;
