@@ -10,7 +10,7 @@ h1{
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 
 }
-.flex_test-box {
+.model-box {
     width:100%;height:auto;
     max-width:1280px;
     margin:0 auto;             /* 余白指定 */
@@ -18,7 +18,7 @@ h1{
     justify-content: space-between;　/* 両端は端っこにくっつけて間は均等にする */
     flex-wrap: wrap;            /* 折り返し指定 */
 }
-.flex_test-item {
+.model-item {
  　 width:32%;height:auto;
 　  display:flex;/*装飾用*/
 　  flex-direction:column;/*装飾用*/
@@ -26,7 +26,7 @@ h1{
 　  border-radius:20px;/*装飾用*/
 　  padding-bottom:30px;/*装飾用*/
 }
-.flex_test-item:nth-of-type(n+4) {
+.model-item:nth-of-type(n+4) {
 　  margin-top:10px;/*子要素を折り返した垂直方向の上部の余白指定*/
 }
 model-viewer {
@@ -38,11 +38,11 @@ model-viewer {
 
 @media screen and (max-width: 767px) {/* phone */
 
-	.flex_test-box {
+	.model-box {
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
-	.flex_test-item {
+	.model-item {
 		width: 100%;
 		padding: 0px;
                 margin: 50px;
