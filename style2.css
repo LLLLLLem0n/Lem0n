@@ -1,0 +1,17 @@
+.flex_test-box{
+  align-items: flex-center;
+  /*中央に整列*/
+}
+
+h1{
+    color: #C6DCE4; 
+    font-size: 1.6em;
+　　margin: 120px 0px 0px 20px;  /* 外側の余白、上右下左 */
+    padding: 0;                   /* 内側の余白を消す(念のため) */
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+model-viewer {
+    width: 500px;
+    height: 600px;
+    background-color: #eeeeee;    
+}
