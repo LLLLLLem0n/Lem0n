@@ -1,5 +1,7 @@
 h1{
-    color: red; 
+    color: #ffffff; 
+    font-size: 0.7em;
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
 .flex_test-box {
     padding:  10px;             /* 余白指定 */
