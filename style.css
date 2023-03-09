@@ -3,8 +3,8 @@ body {
     padding: 0;                   /* 内側の余白を消す(念のため) */
 }
 h1{
-    color: #cccccc; 
-    font-size: 0.7em;
+    color: #C6DCE4; 
+    font-size: 0.9em;
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 
 }
@@ -27,5 +27,5 @@ h1{
 model-viewer {
     width: 500px;
     height: 600px;
-    background-color: #eeeeee;    
+    background-color: #DAEAF1;    
 }
