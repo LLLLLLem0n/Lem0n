@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ModerlViewerを使ったWebARページ</title>
+    <link rel="stylesheet" href="https://llllllem0n.github.io/lem0n/css/style.css" />
   </head>
   <body>
   <script 
@@ -10,14 +11,15 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
 
   </script>
-
+<div class="flex_test-box">
+  <div class="flex_test-item">
     <model-viewer
     ar
     alt="ddcna"
-    src="ddcna4.gltf" 
+    src="ddcna4.gltf"
                   
     style="width:400px;height:500px;"                  
-
+                  
     background-color="#70BCD1"
     shadow-intensity="0.7"
     camera-controls
@@ -25,6 +27,8 @@
     auto-rotate ar magic-leap>
 
     </model-viewer>
+  </div>
+  <div class="flex_test-item">
     <model-viewer
     ar
     alt="ddcbr3"
@@ -39,6 +43,8 @@
     auto-rotate ar magic-leap>
     
     </model-viewer>
+  </div>
+  <div class="flex_test-item">
     <model-viewer 
                   src="ddckintoki4.gltf" 
                   ar 
@@ -49,6 +55,8 @@
 
       
     </model-viewer>
+  </div>
+  <div class="flex_test-item">
     <model-viewer 
                   src="ddckintoki3.gltf" 
                   ar 
@@ -59,5 +67,7 @@
 
       
     </model-viewer>
+  </div>
+ </div>
   </body>
 </html>
