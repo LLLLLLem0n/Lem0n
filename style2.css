@@ -21,17 +21,16 @@ model-viewer {
 }
 .outer{
   width: 100dvw;
-  padding: 20px 0;
+  padding: 0 auto;
   background-color: #ffb6c1;
   text-align: center;
 }
 .inner{
   width: 65dvw;
-  height: 50px;
+  height: 50dvh;
   margin: 0 auto;
   background-color: #4682b4;
-  color: #98ff98; 
-  
+  color: #98ff98;   
   font-size: 15px;
   letter-spacing: 0.11em;
   font-family: 'Noto Sans JP','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
