@@ -18,6 +18,9 @@ model-viewer {
     background-color: #eeeeee;    
 }
 .outer{
+  width: 50%;
+  margin: 0 20%;
+  padding: 0 5%;
   text-align: center;
 }
 .inner{
