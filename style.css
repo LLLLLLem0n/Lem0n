@@ -5,3 +5,4 @@ h1{
     padding:  10px;             /* 余白指定 */
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
+}
