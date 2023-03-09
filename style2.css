@@ -17,7 +17,10 @@ model-viewer {
     height: 50dvh;
     background-color: #eeeeee;    
 }
-.main{
+.outer{
+  text-align: center;
+}
+.inner{
   display: inline-block;
   text-align: left;
 }
