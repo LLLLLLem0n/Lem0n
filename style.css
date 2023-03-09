@@ -37,16 +37,14 @@ model-viewer {
 
 
 @media screen and (max-width: 767px) {/* phone */
-　　　　*, *:before, *:after {
-　　　　　　　  box-sizing: border-box
-　　　　}
+
 	.flex_test-box {
 		flex-direction: column;
-		justify-content: center
+		justify-content: center;
 	}
 	.flex_test-item {
 		width: 100%;
-		padding: 50px;
+		padding: 0px;
                 margin: 50px;
 	}
 }
