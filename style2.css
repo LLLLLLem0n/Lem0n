@@ -7,14 +7,12 @@
   margin:0.5em auto;
 }
 h1{
-    color: #98ff98; 
+    color: #C6DCE4; 
     font-size: 1.6em;
-    letter-spacing: 0.11em;
-    text-align: center;
-    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
 model-viewer {
-    width: 500px;
-    height: 600px;
+    width: 75dvh;
+    height: 60dvw;
     background-color: #eeeeee;    
 }
