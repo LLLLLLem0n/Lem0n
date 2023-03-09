@@ -12,7 +12,7 @@ h1{
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
 model-viewer {
-    width: 25dvh;
-    height: 30dvw;
+    width: 65dvw;
+    height: 50dvh;
     background-color: #eeeeee;    
 }
