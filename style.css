@@ -11,6 +11,7 @@ h1{
 .flex_test-box {
     padding:  0px;             /* 余白指定 */
     display: flex;              /* フレックスボックスにする */
+    justify-content: space-between;　/* 両端は端っこにくっつけて間は均等にする */
     flex-wrap: wrap;            /* 折り返し指定 */
 }
 .flex_test-item {
@@ -21,11 +22,21 @@ h1{
 　  border-radius:20px;/*装飾用*/
 　  padding-bottom:30px;/*装飾用*/
 }
-.box-child:nth-of-type(n+4) {
+.flex_test-item:nth-of-type(n+4) {
 　  margin-top:10px;/*子要素を折り返した垂直方向の上部の余白指定*/
 }
 model-viewer {
     width: 500px;
     height: 600px;
-    background-color: #DAEAF1;    
+    background-color: #eeeeee;    
+}
+
+
+@media screen and (max-width: 767px) {
+	.flex_test-box {
+		flex-direction: column;
+	}
+	.flex_test-item {
+		width: 100%;
+	} /* phone */
 }
