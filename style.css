@@ -6,3 +6,8 @@ h1{
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
 }
+.model {
+max-width: 600px;
+height: 400px;
+background-color: #eeeeee;    
+}
