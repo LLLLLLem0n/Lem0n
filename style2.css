@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 
 .flex_test-box{
   display:flex;
@@ -30,9 +30,9 @@ model-viewer {
   margin: 0 auto;
   
   color: #98ff98;   
-  font-size: 15px;
-  letter-spacing: 0.11em;
-  font-family: 'Noto Sans JP','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  font-family: 'Noto Sans JP', sans-serif,'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
   display: inline-block;
   text-align: left;
 }
