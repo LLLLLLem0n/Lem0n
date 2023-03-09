@@ -18,14 +18,14 @@ model-viewer {
     background-color: #eeeeee;    
 }
 .outer{
-  width: 800px;
+  width: 100dvw;
   padding: 20px 0;
   background-color: #ffb6c1;
   text-align: center;
 }
 .inner{
-  width: 200px;
-  height: 200px;
+  width: 65dvw;
+  height: 50px;
   margin: 0 auto;
   background-color: #4682b4;
   color: #98ff98; 
