@@ -8,7 +8,9 @@
 }
 h1{
     color: #98ff98; 
-    font-size: 1.6em;
+    font-size: 15px;
+    letter-spacing: 0.11em;
+    text-align: center;
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
 model-viewer {
