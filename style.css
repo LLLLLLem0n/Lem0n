@@ -9,28 +9,23 @@ h1{
 
 }
 .flex_test-box {
-  width:100%;height:auto;
-  max-width:1280px;
-  margin:0 auto;
-  display:flex;
-  flex-wrap:wrap;/*折り返し指定*/
-  justify-content:space-between;/*子要素を均等に配置して余白を設ける*/
-  max-width:1280px;margin:0 auto;/*装飾用*/
-
+    padding:  0px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+    flex-wrap: wrap;            /* 折り返し指定 */
 }
 .flex_test-item {
-  width:32%;height:auto;
-  display:flex;/*装飾用*/
-  flex-direction:column;/*装飾用*/
-  border:1px solid #ccc;/*装飾用*/
-  border-radius:20px;/*装飾用*/
-  padding-bottom:30px;/*装飾用*/
+ 　 width:32%;height:auto;
+　  display:flex;/*装飾用*/
+　  flex-direction:column;/*装飾用*/
+　  border:1px solid #ccc;/*装飾用*/
+　  border-radius:20px;/*装飾用*/
+　  padding-bottom:30px;/*装飾用*/
 }
 .box-child:nth-of-type(n+4) {
-  margin-top:10px;/*子要素を折り返した垂直方向の上部の余白指定*/
+　  margin-top:10px;/*子要素を折り返した垂直方向の上部の余白指定*/
 }
 model-viewer {
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     background-color: #eeeeee;    
 }
