@@ -25,11 +25,11 @@ model-viewer {
   text-align: center;
 }
 .inner{
-  width: 75dvw;
+  width: 80dvw;
   height: 30dvh;
   margin: 0 auto;
   
-  color: #98ff98;   
+  color: #62C8A5;   
   font-size: 16px;
   letter-spacing: 0.3em;
   font-family: 'Noto Sans JP', sans-serif,'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
