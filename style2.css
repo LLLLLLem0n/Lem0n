@@ -18,13 +18,18 @@ model-viewer {
     background-color: #eeeeee;    
 }
 .outer{
-  width: 400px;
-  height: 200px;
+  width: 800px;
+  padding: 20px 0;
   background-color: #ffb6c1;
   text-align: center;
 }
 .inner{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #4682b4;
   color: #98ff98; 
+  
   font-size: 15px;
   letter-spacing: 0.11em;
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','游ゴシック体',YuGothic,'Yu Gothic','游ゴシック', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
