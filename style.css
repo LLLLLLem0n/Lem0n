@@ -5,13 +5,15 @@ body {
 h1{
     color: #C6DCE4; 
     font-size: 0.9em;
-　　margin: 20px 0px 0px 20px;  /* 外側の余白、上右下左 */
+　　margin: 120px 0px 0px 20px;  /* 外側の余白、上右下左 */
     padding: 0;                   /* 内側の余白を消す(念のため) */
     font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 
 }
 .flex_test-box {
-    padding:  0px;             /* 余白指定 */
+    width:100%;height:auto;
+    max-width:1280px;
+    margin:0 auto;             /* 余白指定 */
     display: flex;              /* フレックスボックスにする */
     justify-content: space-between;　/* 両端は端っこにくっつけて間は均等にする */
     flex-wrap: wrap;            /* 折り返し指定 */
